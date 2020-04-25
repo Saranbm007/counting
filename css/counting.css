@@ -1,0 +1,76 @@
+html {
+    height: 100%;
+}
+body {
+    height: 100%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #6cee38;
+    background-color: rgba(0, 0, 0, 0.8);
+    margin: 0px auto 0px auto;
+}
+div#page {
+    width: 650px;
+    height: 100%;
+    margin: 0px auto 0px auto;
+    background-color: black;
+    padding: 20px 20px 20px 20px;
+    
+}
+#bestTime{
+    width: 200px;
+    float: right;
+    font-size: 25px;
+    text-align: center;
+
+}
+#timer{
+    width: 400px;
+    float: right;
+    font-size: 25px;
+    text-align: right;
+    padding-right: 30px;
+
+}
+#start {
+    width: 120px;
+    color: black;
+    font-weight: bold;
+    float: right;
+    border: none;
+    background-color: #6cee38;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    padding: 2px;
+    font-size: 20px;
+}
+
+h2 {
+    width: 400px;
+
+}
+
+div#tiles {
+    width:550px;
+    margin: 20px auto 20px auto;
+    border: 1px solid #efefef;
+    padding: 25px;
+    border-radius: 10px;
+    clear: both;
+
+
+}
+.tile {
+    width: 100px;
+    height: 100px;
+    border: 1px solid #efefef;
+    border-radius: 10px;
+    color: #6cee38;
+    font-size: 50px;
+    background-color: rgba(0, 0, 0, 0.8);
+    margin: 5px 3px;
+
+}
+.title:hover {
+
+    
+}
