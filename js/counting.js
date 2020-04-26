@@ -19,7 +19,7 @@ tiles.forEach( (tile) => {
             if(currentNumber<21){
             tile.value = ++no;}
             else{
-                tile.value = '';
+                tile.value = ' ';
             }
             count++;
     }
