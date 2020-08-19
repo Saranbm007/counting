@@ -34,7 +34,7 @@ tiles.forEach( (tile) => {
 }
 
 const numbers = [20,1,19,2,18,3,17,4,16,5,15,6,14,7,13,8,12,9,11,10];
-var randomIndex;
+
 function newGame(){
     for(var i=0; i<tiles.length; i++){
         tiles[i].value = numbers[i];
@@ -46,7 +46,7 @@ function newGame(){
     }else{if(x==0){
         document.querySelectorAll('.timer')[0].innerHTML = '00:00';
         restart();
-        x = 1;
+        
 
     }}
 }
